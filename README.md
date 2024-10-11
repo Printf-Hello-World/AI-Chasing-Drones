@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4c7ba634-472f-4eb8-a094-3f97ddf7e68a)# Collaborative Drone Behaviour using Reinforcement Learning
+# Collaborative Drone Behaviour using Reinforcement Learning
 
 This project explores the implementation of reinforcement learning for collaborative behaviour in drones using a multi-agent setup. The objective is to simulate and develop behaviours where two drones work together to chase a target drone using the Proximal Policy Optimization (PPO) algorithm. This project was inspired by OpenAi's DOTA 5 team which could beat a team of human players.
 
