@@ -1,9 +1,13 @@
-# Chasing Drones Using Unity and ML-Agents
+![image](https://github.com/user-attachments/assets/4c7ba634-472f-4eb8-a094-3f97ddf7e68a)# Collaborative Drone Behaviour using Reinforcement Learning
 
-As part of my Final Year Project in University, I used ML-Agents and Unity to teach two drones to chase a single target drone using Reinforcement Learning. The RL method used was PPO. 
+This project explores the implementation of reinforcement learning for collaborative behaviour in drones using a multi-agent setup. The objective is to simulate and develop behaviours where two drones work together to chase a target drone using the Proximal Policy Optimization (PPO) algorithm. This project was inspired by OpenAi's DOTA 5 team which could beat a team of human players.
 
-Unity Version: 2018.4.17
-ML-Agents: Release 3
+## Overview
+- **Tools**: Unity Version: 2018.4.17, ML-Agents: Release 3
+- **Reinforcement Learning**: Proximal Policy Optimization (PPO)
+- **Environment**: A simulated environment with drones chasing a moving target.
+
+More details are available in the [docs](./docs/).
 
 ## Environment Set Up
 
@@ -17,3 +21,5 @@ ML-Agents: Release 3
 <br />Agent uses rays to “see” environment, simulated sensor values of position, velocity and rotation are also used as input. Actions are high-level actions like “pitch up”, “yaw right” etc. Actions are floating point numbers between -1 
 
 
+## Approach ##
+The concept of curriculum Learning was used, where the final scenario of two drones chasing a target drone was broken down into 3 simpler phases, which each phase building up to the next phase.
