@@ -13,10 +13,12 @@ The objective of Phase 1 is to train a single drone to track and fly towards a f
 | -distance (normalised)  | Reward for approaching the target|
 |-angle (normalised)  | Reward for turning towards the target direction  |
 
+<img src="Media/Phase 1 Reward.jpg" >
+
 # Results and Discussion
-Please watch the results after the phase 1 training phase [here](https://youtu.be/j9JLnqrBFVs)
+Please watch the results of phase 1[here](https://youtu.be/j9JLnqrBFVs)
 <br />
-The agent does not memorize the spawn positions of the target cube and is able to fly towards the cube successfully and consistently during each episode.
+The agent does not memorize the spawn positions of the target cube and is able to fly towards the cube successfully and consistently during each episode. The same agent (neural network) will be used for phase 2.
 
 
 
