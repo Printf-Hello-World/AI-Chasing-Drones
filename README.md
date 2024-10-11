@@ -22,5 +22,5 @@ More details are available in the [docs](./docs/).
 
 
 ## Approach ##
-The concept of curriculum Learning was used, where the final scenario of two drones chasing a target drone was broken down into 3 simpler phases, which each phase building up to the next phase.
+The concept of curriculum Learning was used, where the final scenario of two drones chasing a target drone was broken down into 3 simpler phases, which each phase building up to the next phase.<br />
 <img src="Media/Project Phases.JPG" width="500">
