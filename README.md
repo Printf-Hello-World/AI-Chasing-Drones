@@ -25,4 +25,4 @@ This project explores the implementation of reinforcement learning for collabora
 The concept of curriculum Learning was used, where the final scenario of two drones chasing a target drone was broken down into 3 simpler phases, which each phase building up to the next phase.<br />
 <img src="Media/Project Phases.JPG" >
 <br />
-Please see [Phase 1](./Phase%201.md), [Phase 2](./Phase%202.md), [Phase 3](./hase%203.md), for results and discussion of the 3 phases
+Please see [Phase 1](./Phase%201.md), [Phase 2](./Phase%202.md), [Phase 3](./Phase%203.md), for results and discussion of the 3 phases
