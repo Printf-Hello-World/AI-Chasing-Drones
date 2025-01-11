@@ -1,9 +1,9 @@
-![image](https://github.com/user-attachments/assets/c8b594f2-fb0c-443b-9814-56455e4146c8)# Phase 3: Double Chasing Drones to Single Target Drone
+# Phase 3: Double Chasing Drones to Single Target Drone
 
 The objective of Phase 3 is to train the 2 agents from phase 2 to work together to chase and catch a single target which is also an agent. This becomes a multi agent competitive scenario with two different teams (chasing and target agent) which compete with each other. Each time a team is training, the other team is relying on its inference (ie it is not training) and they take turns to train. Over time, this allows both teams to learn from each other and more behaviour can emerge.
 
 - **Environment**: Additional obstacles in the environment and replacing the target cube into another trainable agent drone.
-<img src="Media/Phase 3 Environment.JPG"  width = 600>
+<img src="Media/Phase 3 Environment.jpg"  width = 600>
   
 - **Reward System**: The reward system for the chasing agents are the same, but the new target agent has a different reward system. <br />
 
